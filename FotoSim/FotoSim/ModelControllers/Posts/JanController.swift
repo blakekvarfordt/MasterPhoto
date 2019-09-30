@@ -38,4 +38,31 @@ class JanController {
             completion(true)
         }
     }
+    
+    func fetchPost(completion: @escaping (Bool) -> Void) {
+        let predicate = NSPredicate(value: true)
+        let query = CKQuery(recordType: JanuaryPostConstants.recordKey, predicate: predicate)
+        publicDatabase.perform(query, inZoneWith: nil) { (records, error) in
+            
+            if let error = error {
+                print("Error saving a record to database in \(#function) \(error) \(error.localizedDescription)")
+                completion(false)
+                return
+            }
+            
+            guard let records = records else { completion(false); return }
+            let posts = records.compactMap({JanuaryPost(ckRecord: $0)})
+            
+             var filteredPosts: [JanuaryPost] = []
+            
+//            for post in posts {
+//                guard let currentUserID = UserController.shared.currentUser?.recordID.recordName else { return }
+//                if post.isBlocked.contains(currentUserID) == false {
+//                    filteredPosts.append(post)
+//                }
+//            }
+            self.posts = filteredPosts
+            completion(true)
+        }
+    }
 }
