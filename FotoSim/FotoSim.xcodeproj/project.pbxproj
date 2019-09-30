@@ -25,6 +25,30 @@
 		63F1442D2341595C0085425F /* NovemberPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1442C2341595C0085425F /* NovemberPost.swift */; };
 		63F1442F234159620085425F /* DecemberPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1442E234159620085425F /* DecemberPost.swift */; };
 		63F1443223415AF00085425F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1443123415AF00085425F /* User.swift */; };
+		63F144352341A60D0085425F /* JanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144342341A60D0085425F /* JanController.swift */; };
+		63F144372341A64D0085425F /* FebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144362341A64D0085425F /* FebController.swift */; };
+		63F144392341A65A0085425F /* MarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144382341A65A0085425F /* MarController.swift */; };
+		63F1443B2341A66D0085425F /* AprController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1443A2341A66D0085425F /* AprController.swift */; };
+		63F1443D2341A6A40085425F /* MayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1443C2341A6A40085425F /* MayController.swift */; };
+		63F1443F2341A6B20085425F /* JunController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1443E2341A6B20085425F /* JunController.swift */; };
+		63F144412341A6C10085425F /* JulController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144402341A6C10085425F /* JulController.swift */; };
+		63F144432341A6E60085425F /* AugController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144422341A6E60085425F /* AugController.swift */; };
+		63F144452341A6EF0085425F /* SepController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144442341A6EF0085425F /* SepController.swift */; };
+		63F144472341A6F80085425F /* OctController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144462341A6F80085425F /* OctController.swift */; };
+		63F144492341A7E50085425F /* NovController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144482341A7E50085425F /* NovController.swift */; };
+		63F1444B2341A7EE0085425F /* DecController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1444A2341A7EE0085425F /* DecController.swift */; };
+		63F144502341B1E10085425F /* JanuaryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1444F2341B1E10085425F /* JanuaryTVC.swift */; };
+		63F144522341B1F50085425F /* FebruaryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144512341B1F50085425F /* FebruaryTVC.swift */; };
+		63F144542341B2200085425F /* MarchTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144532341B2200085425F /* MarchTVC.swift */; };
+		63F144562341B2310085425F /* AprilTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144552341B2310085425F /* AprilTVC.swift */; };
+		63F144582341B2430085425F /* MayTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144572341B2430085425F /* MayTVC.swift */; };
+		63F1445A2341B25E0085425F /* JuneTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144592341B25E0085425F /* JuneTVC.swift */; };
+		63F1445C2341B26E0085425F /* JulyTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1445B2341B26E0085425F /* JulyTVC.swift */; };
+		63F1445E2341B2790085425F /* AugustTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1445D2341B2790085425F /* AugustTVC.swift */; };
+		63F144602341B2A10085425F /* SeptemberTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1445F2341B2A10085425F /* SeptemberTVC.swift */; };
+		63F144622341B2B10085425F /* OctoberTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144612341B2B10085425F /* OctoberTVC.swift */; };
+		63F144642341B2BC0085425F /* NovemberTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144632341B2BC0085425F /* NovemberTVC.swift */; };
+		63F144662341B2C70085425F /* DecemberTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144652341B2C70085425F /* DecemberTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +73,30 @@
 		63F1442C2341595C0085425F /* NovemberPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovemberPost.swift; sourceTree = "<group>"; };
 		63F1442E234159620085425F /* DecemberPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecemberPost.swift; sourceTree = "<group>"; };
 		63F1443123415AF00085425F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		63F144342341A60D0085425F /* JanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanController.swift; sourceTree = "<group>"; };
+		63F144362341A64D0085425F /* FebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FebController.swift; sourceTree = "<group>"; };
+		63F144382341A65A0085425F /* MarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarController.swift; sourceTree = "<group>"; };
+		63F1443A2341A66D0085425F /* AprController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprController.swift; sourceTree = "<group>"; };
+		63F1443C2341A6A40085425F /* MayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayController.swift; sourceTree = "<group>"; };
+		63F1443E2341A6B20085425F /* JunController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunController.swift; sourceTree = "<group>"; };
+		63F144402341A6C10085425F /* JulController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JulController.swift; sourceTree = "<group>"; };
+		63F144422341A6E60085425F /* AugController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugController.swift; sourceTree = "<group>"; };
+		63F144442341A6EF0085425F /* SepController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepController.swift; sourceTree = "<group>"; };
+		63F144462341A6F80085425F /* OctController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctController.swift; sourceTree = "<group>"; };
+		63F144482341A7E50085425F /* NovController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovController.swift; sourceTree = "<group>"; };
+		63F1444A2341A7EE0085425F /* DecController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecController.swift; sourceTree = "<group>"; };
+		63F1444F2341B1E10085425F /* JanuaryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanuaryTVC.swift; sourceTree = "<group>"; };
+		63F144512341B1F50085425F /* FebruaryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FebruaryTVC.swift; sourceTree = "<group>"; };
+		63F144532341B2200085425F /* MarchTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarchTVC.swift; sourceTree = "<group>"; };
+		63F144552341B2310085425F /* AprilTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprilTVC.swift; sourceTree = "<group>"; };
+		63F144572341B2430085425F /* MayTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayTVC.swift; sourceTree = "<group>"; };
+		63F144592341B25E0085425F /* JuneTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuneTVC.swift; sourceTree = "<group>"; };
+		63F1445B2341B26E0085425F /* JulyTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JulyTVC.swift; sourceTree = "<group>"; };
+		63F1445D2341B2790085425F /* AugustTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugustTVC.swift; sourceTree = "<group>"; };
+		63F1445F2341B2A10085425F /* SeptemberTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeptemberTVC.swift; sourceTree = "<group>"; };
+		63F144612341B2B10085425F /* OctoberTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctoberTVC.swift; sourceTree = "<group>"; };
+		63F144632341B2BC0085425F /* NovemberTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovemberTVC.swift; sourceTree = "<group>"; };
+		63F144652341B2C70085425F /* DecemberTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecemberTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +132,10 @@
 			isa = PBXGroup;
 			children = (
 				63F14412234154590085425F /* FotoSim.entitlements */,
+				63F143CF234135C50085425F /* StoryBoards */,
 				63F143D2234135E20085425F /* ViewControllers */,
 				63F143D1234135DA0085425F /* ModelControllers */,
 				63F143D0234135D50085425F /* Models */,
-				63F143CF234135C50085425F /* StoryBoards */,
 				63F143CE234135B50085425F /* Resources */,
 			);
 			path = FotoSim;
@@ -124,7 +172,8 @@
 		63F143D1234135DA0085425F /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
-				63F143F9234148380085425F /* Post */,
+				63F144332341A5F90085425F /* User */,
+				63F143F9234148380085425F /* Posts */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -132,6 +181,18 @@
 		63F143D2234135E20085425F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				63F144672341B2D30085425F /* January */,
+				63F144682341B2DF0085425F /* February */,
+				63F144692341B2E70085425F /* March */,
+				63F1446A2341B2EE0085425F /* April */,
+				63F1446B2341B2F30085425F /* May */,
+				63F1446C2341B2F80085425F /* June */,
+				63F1446D2341B2FE0085425F /* July */,
+				63F1446E2341B3020085425F /* August */,
+				63F1446F2341B3080085425F /* September */,
+				63F144702341B30E0085425F /* October */,
+				63F144712341B3140085425F /* November */,
+				63F144722341B31C0085425F /* December */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -155,11 +216,23 @@
 			path = Posts;
 			sourceTree = "<group>";
 		};
-		63F143F9234148380085425F /* Post */ = {
+		63F143F9234148380085425F /* Posts */ = {
 			isa = PBXGroup;
 			children = (
+				63F144342341A60D0085425F /* JanController.swift */,
+				63F144362341A64D0085425F /* FebController.swift */,
+				63F144382341A65A0085425F /* MarController.swift */,
+				63F1443A2341A66D0085425F /* AprController.swift */,
+				63F1443C2341A6A40085425F /* MayController.swift */,
+				63F1443E2341A6B20085425F /* JunController.swift */,
+				63F144402341A6C10085425F /* JulController.swift */,
+				63F144422341A6E60085425F /* AugController.swift */,
+				63F144442341A6EF0085425F /* SepController.swift */,
+				63F144462341A6F80085425F /* OctController.swift */,
+				63F144482341A7E50085425F /* NovController.swift */,
+				63F1444A2341A7EE0085425F /* DecController.swift */,
 			);
-			path = Post;
+			path = Posts;
 			sourceTree = "<group>";
 		};
 		63F144132341545C0085425F /* Frameworks */ = {
@@ -176,6 +249,109 @@
 				63F1443123415AF00085425F /* User.swift */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		63F144332341A5F90085425F /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		63F144672341B2D30085425F /* January */ = {
+			isa = PBXGroup;
+			children = (
+				63F1444F2341B1E10085425F /* JanuaryTVC.swift */,
+			);
+			path = January;
+			sourceTree = "<group>";
+		};
+		63F144682341B2DF0085425F /* February */ = {
+			isa = PBXGroup;
+			children = (
+				63F144512341B1F50085425F /* FebruaryTVC.swift */,
+			);
+			path = February;
+			sourceTree = "<group>";
+		};
+		63F144692341B2E70085425F /* March */ = {
+			isa = PBXGroup;
+			children = (
+				63F144532341B2200085425F /* MarchTVC.swift */,
+			);
+			path = March;
+			sourceTree = "<group>";
+		};
+		63F1446A2341B2EE0085425F /* April */ = {
+			isa = PBXGroup;
+			children = (
+				63F144552341B2310085425F /* AprilTVC.swift */,
+			);
+			path = April;
+			sourceTree = "<group>";
+		};
+		63F1446B2341B2F30085425F /* May */ = {
+			isa = PBXGroup;
+			children = (
+				63F144572341B2430085425F /* MayTVC.swift */,
+			);
+			path = May;
+			sourceTree = "<group>";
+		};
+		63F1446C2341B2F80085425F /* June */ = {
+			isa = PBXGroup;
+			children = (
+				63F144592341B25E0085425F /* JuneTVC.swift */,
+			);
+			path = June;
+			sourceTree = "<group>";
+		};
+		63F1446D2341B2FE0085425F /* July */ = {
+			isa = PBXGroup;
+			children = (
+				63F1445B2341B26E0085425F /* JulyTVC.swift */,
+			);
+			path = July;
+			sourceTree = "<group>";
+		};
+		63F1446E2341B3020085425F /* August */ = {
+			isa = PBXGroup;
+			children = (
+				63F1445D2341B2790085425F /* AugustTVC.swift */,
+			);
+			path = August;
+			sourceTree = "<group>";
+		};
+		63F1446F2341B3080085425F /* September */ = {
+			isa = PBXGroup;
+			children = (
+				63F1445F2341B2A10085425F /* SeptemberTVC.swift */,
+			);
+			path = September;
+			sourceTree = "<group>";
+		};
+		63F144702341B30E0085425F /* October */ = {
+			isa = PBXGroup;
+			children = (
+				63F144612341B2B10085425F /* OctoberTVC.swift */,
+			);
+			path = October;
+			sourceTree = "<group>";
+		};
+		63F144712341B3140085425F /* November */ = {
+			isa = PBXGroup;
+			children = (
+				63F144632341B2BC0085425F /* NovemberTVC.swift */,
+			);
+			path = November;
+			sourceTree = "<group>";
+		};
+		63F144722341B31C0085425F /* December */ = {
+			isa = PBXGroup;
+			children = (
+				63F144652341B2C70085425F /* DecemberTVC.swift */,
+			);
+			path = December;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,20 +433,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F1444B2341A7EE0085425F /* DecController.swift in Sources */,
+				63F144472341A6F80085425F /* OctController.swift in Sources */,
+				63F144602341B2A10085425F /* SeptemberTVC.swift in Sources */,
 				63F14423234159280085425F /* JunePost.swift in Sources */,
 				63F144292341594C0085425F /* SeptemberPost.swift in Sources */,
+				63F144562341B2310085425F /* AprilTVC.swift in Sources */,
 				63F144272341593A0085425F /* AugustPost.swift in Sources */,
 				63F1442B234159540085425F /* OctoberPost.swift in Sources */,
+				63F144662341B2C70085425F /* DecemberTVC.swift in Sources */,
+				63F1445A2341B25E0085425F /* JuneTVC.swift in Sources */,
+				63F144412341A6C10085425F /* JulController.swift in Sources */,
 				63F14419234158040085425F /* JanuaryPost.swift in Sources */,
 				63F1442D2341595C0085425F /* NovemberPost.swift in Sources */,
+				63F144522341B1F50085425F /* FebruaryTVC.swift in Sources */,
 				63F1443223415AF00085425F /* User.swift in Sources */,
+				63F144502341B1E10085425F /* JanuaryTVC.swift in Sources */,
+				63F144542341B2200085425F /* MarchTVC.swift in Sources */,
 				63F1441B234158ED0085425F /* FebruaryPost.swift in Sources */,
 				63F144252341592F0085425F /* JulyPost.swift in Sources */,
 				63F143BD234135A70085425F /* AppDelegate.swift in Sources */,
+				63F144582341B2430085425F /* MayTVC.swift in Sources */,
 				63F1441F234158FE0085425F /* AprilPost.swift in Sources */,
+				63F1443F2341A6B20085425F /* JunController.swift in Sources */,
+				63F144622341B2B10085425F /* OctoberTVC.swift in Sources */,
+				63F144392341A65A0085425F /* MarController.swift in Sources */,
+				63F144352341A60D0085425F /* JanController.swift in Sources */,
+				63F144432341A6E60085425F /* AugController.swift in Sources */,
+				63F144642341B2BC0085425F /* NovemberTVC.swift in Sources */,
+				63F144452341A6EF0085425F /* SepController.swift in Sources */,
+				63F1443B2341A66D0085425F /* AprController.swift in Sources */,
+				63F144492341A7E50085425F /* NovController.swift in Sources */,
 				63F1441D234158F60085425F /* MarchPost.swift in Sources */,
 				63F1442F234159620085425F /* DecemberPost.swift in Sources */,
 				63F14421234159050085425F /* MayPost.swift in Sources */,
+				63F1445E2341B2790085425F /* AugustTVC.swift in Sources */,
+				63F1445C2341B26E0085425F /* JulyTVC.swift in Sources */,
+				63F144372341A64D0085425F /* FebController.swift in Sources */,
+				63F1443D2341A6A40085425F /* MayController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
