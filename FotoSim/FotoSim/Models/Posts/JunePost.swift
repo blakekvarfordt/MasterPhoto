@@ -10,7 +10,7 @@ import UIKit
 import CloudKit
 
 struct JunePostConstants {
-    static let recordKey = "MayPost"
+    static let recordKey = "JunePost"
     static let titleKey = "Title"
     static let descriptionKey = "Description"
     static let timestampKey = "Timestamp"
