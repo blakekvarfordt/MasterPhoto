@@ -20,9 +20,9 @@
 		63F14423234159280085425F /* JunePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F14422234159280085425F /* JunePost.swift */; };
 		63F144252341592F0085425F /* JulyPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144242341592F0085425F /* JulyPost.swift */; };
 		63F144272341593A0085425F /* AugustPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144262341593A0085425F /* AugustPost.swift */; };
-		63F144292341594C0085425F /* SeptemberPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144282341594C0085425F /* SeptemberPost.swift */; };
-		63F1442B234159540085425F /* OctoberPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1442A234159540085425F /* OctoberPost.swift */; };
-		63F1442D2341595C0085425F /* NovemberPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1442C2341595C0085425F /* NovemberPost.swift */; };
+		63F144292341594C0085425F /* OctoberPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144282341594C0085425F /* OctoberPost.swift */; };
+		63F1442B234159540085425F /* NovemberPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1442A234159540085425F /* NovemberPost.swift */; };
+		63F1442D2341595C0085425F /* SeptemberPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1442C2341595C0085425F /* SeptemberPost.swift */; };
 		63F1442F234159620085425F /* DecemberPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1442E234159620085425F /* DecemberPost.swift */; };
 		63F1443223415AF00085425F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1443123415AF00085425F /* User.swift */; };
 		63F144352341A60D0085425F /* JanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144342341A60D0085425F /* JanController.swift */; };
@@ -69,9 +69,9 @@
 		63F14422234159280085425F /* JunePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunePost.swift; sourceTree = "<group>"; };
 		63F144242341592F0085425F /* JulyPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JulyPost.swift; sourceTree = "<group>"; };
 		63F144262341593A0085425F /* AugustPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugustPost.swift; sourceTree = "<group>"; };
-		63F144282341594C0085425F /* SeptemberPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeptemberPost.swift; sourceTree = "<group>"; };
-		63F1442A234159540085425F /* OctoberPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctoberPost.swift; sourceTree = "<group>"; };
-		63F1442C2341595C0085425F /* NovemberPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovemberPost.swift; sourceTree = "<group>"; };
+		63F144282341594C0085425F /* OctoberPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctoberPost.swift; sourceTree = "<group>"; };
+		63F1442A234159540085425F /* NovemberPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovemberPost.swift; sourceTree = "<group>"; };
+		63F1442C2341595C0085425F /* SeptemberPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeptemberPost.swift; sourceTree = "<group>"; };
 		63F1442E234159620085425F /* DecemberPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecemberPost.swift; sourceTree = "<group>"; };
 		63F1443123415AF00085425F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		63F144342341A60D0085425F /* JanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanController.swift; sourceTree = "<group>"; };
@@ -210,9 +210,9 @@
 				63F14422234159280085425F /* JunePost.swift */,
 				63F144242341592F0085425F /* JulyPost.swift */,
 				63F144262341593A0085425F /* AugustPost.swift */,
-				63F144282341594C0085425F /* SeptemberPost.swift */,
-				63F1442A234159540085425F /* OctoberPost.swift */,
-				63F1442C2341595C0085425F /* NovemberPost.swift */,
+				63F1442C2341595C0085425F /* SeptemberPost.swift */,
+				63F144282341594C0085425F /* OctoberPost.swift */,
+				63F1442A234159540085425F /* NovemberPost.swift */,
 				63F1442E234159620085425F /* DecemberPost.swift */,
 			);
 			path = Posts;
@@ -440,15 +440,15 @@
 				63F144472341A6F80085425F /* OctController.swift in Sources */,
 				63F144602341B2A10085425F /* SeptemberTVC.swift in Sources */,
 				63F14423234159280085425F /* JunePost.swift in Sources */,
-				63F144292341594C0085425F /* SeptemberPost.swift in Sources */,
+				63F144292341594C0085425F /* OctoberPost.swift in Sources */,
 				63F144562341B2310085425F /* AprilTVC.swift in Sources */,
 				63F144272341593A0085425F /* AugustPost.swift in Sources */,
-				63F1442B234159540085425F /* OctoberPost.swift in Sources */,
+				63F1442B234159540085425F /* NovemberPost.swift in Sources */,
 				63F144662341B2C70085425F /* DecemberTVC.swift in Sources */,
 				63F1445A2341B25E0085425F /* JuneTVC.swift in Sources */,
 				63F144412341A6C10085425F /* JulController.swift in Sources */,
 				63F14419234158040085425F /* JanuaryPost.swift in Sources */,
-				63F1442D2341595C0085425F /* NovemberPost.swift in Sources */,
+				63F1442D2341595C0085425F /* SeptemberPost.swift in Sources */,
 				63F144522341B1F50085425F /* FebruaryTVC.swift in Sources */,
 				63F1443223415AF00085425F /* User.swift in Sources */,
 				63F144502341B1E10085425F /* JanuaryTVC.swift in Sources */,

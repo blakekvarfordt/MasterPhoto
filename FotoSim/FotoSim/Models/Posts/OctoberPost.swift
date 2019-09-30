@@ -9,8 +9,8 @@
 import UIKit
 import CloudKit
 
-struct NovemberPostConstants {
-    static let recordKey = "NovemberPost"
+struct OctoberPostConstants {
+    static let recordKey = "OctoberPost"
     static let titleKey = "Title"
     static let descriptionKey = "Description"
     static let timestampKey = "Timestamp"
@@ -21,7 +21,7 @@ struct NovemberPostConstants {
     static let isBlockedKey = "isBlocked"
 }
 
-class NovemberPost {
+class OctoberPost {
     let title: String
     let description: String
     let timestamp: Date
@@ -86,13 +86,13 @@ class NovemberPost {
     }
     
     init?(ckRecord: CKRecord) {
-        guard let title = ckRecord[NovemberPostConstants.titleKey] as? String,
-            let description = ckRecord[NovemberPostConstants.descriptionKey] as? String,
-            let timestamp = ckRecord[NovemberPostConstants.timestampKey] as? Date,
-            let userReference = ckRecord[NovemberPostConstants.userReferenceKey] as? CKRecord.Reference,
-            let imageAsset = ckRecord[NovemberPostConstants.imageKey] as? CKAsset,
-            let userThatPosted = ckRecord[NovemberPostConstants.userThatPostedKey] as? String,
-            let userProfileImageAsset = ckRecord[NovemberPostConstants.userProfileImageKey] as? CKAsset else { return nil }
+        guard let title = ckRecord[OctoberPostConstants.titleKey] as? String,
+            let description = ckRecord[OctoberPostConstants.descriptionKey] as? String,
+            let timestamp = ckRecord[OctoberPostConstants.timestampKey] as? Date,
+            let userReference = ckRecord[OctoberPostConstants.userReferenceKey] as? CKRecord.Reference,
+            let imageAsset = ckRecord[OctoberPostConstants.imageKey] as? CKAsset,
+            let userThatPosted = ckRecord[OctoberPostConstants.userThatPostedKey] as? String,
+            let userProfileImageAsset = ckRecord[OctoberPostConstants.userProfileImageKey] as? CKAsset else { return nil }
         
         self.title = title
         self.description = description
@@ -100,7 +100,7 @@ class NovemberPost {
         self.userReference = userReference
         self.userThatPosted = userThatPosted
         self.recordID = ckRecord.recordID
-        if let isBlocked = ckRecord[NovemberPostConstants.isBlockedKey] as? [String] {
+        if let isBlocked = ckRecord[OctoberPostConstants.isBlockedKey] as? [String] {
             self.isBlocked = isBlocked
         }
         
@@ -125,19 +125,18 @@ class NovemberPost {
 }
 
 extension CKRecord {
-    convenience init(novemberPost: NovemberPost) {
-        self.init(recordType: NovemberPostConstants.recordKey, recordID: novemberPost.recordID)
-        self.setValue(novemberPost.title, forKey: NovemberPostConstants.titleKey)
-        self.setValue(novemberPost.description, forKey: NovemberPostConstants.descriptionKey)
-        self.setValue(novemberPost.timestamp, forKey: NovemberPostConstants.timestampKey)
-        self.setValue(novemberPost.imageAsset, forKey: NovemberPostConstants.imageKey)
-        self.setValue(novemberPost.userProfileImageAsset, forKey: NovemberPostConstants.userProfileImageKey)
-        self.setValue(novemberPost.userReference, forKey: NovemberPostConstants.userReferenceKey)
-        self.setValue(novemberPost.userThatPosted, forKey: NovemberPostConstants.userThatPostedKey)
+    convenience init(octoberPost: OctoberPost) {
+        self.init(recordType: OctoberPostConstants.recordKey, recordID: octoberPost.recordID)
+        self.setValue(octoberPost.title, forKey: OctoberPostConstants.titleKey)
+        self.setValue(octoberPost.description, forKey: OctoberPostConstants.descriptionKey)
+        self.setValue(octoberPost.timestamp, forKey: OctoberPostConstants.timestampKey)
+        self.setValue(octoberPost.imageAsset, forKey: OctoberPostConstants.imageKey)
+        self.setValue(octoberPost.userProfileImageAsset, forKey: OctoberPostConstants.userProfileImageKey)
+        self.setValue(octoberPost.userReference, forKey: OctoberPostConstants.userReferenceKey)
+        self.setValue(octoberPost.userThatPosted, forKey: OctoberPostConstants.userThatPostedKey)
         
-        if !novemberPost.isBlocked.isEmpty {
-            self.setValue(novemberPost.isBlocked, forKey: NovemberPostConstants.isBlockedKey)
+        if !octoberPost.isBlocked.isEmpty {
+            self.setValue(octoberPost.isBlocked, forKey: OctoberPostConstants.isBlockedKey)
         }
     }
 }
-
