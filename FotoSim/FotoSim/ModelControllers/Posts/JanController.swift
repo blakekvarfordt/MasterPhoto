@@ -55,12 +55,12 @@ class JanController {
             
              var filteredPosts: [JanuaryPost] = []
             
-//            for post in posts {
-//                guard let currentUserID = UserController.shared.currentUser?.recordID.recordName else { return }
-//                if post.isBlocked.contains(currentUserID) == false {
-//                    filteredPosts.append(post)
-//                }
-//            }
+            for post in posts {
+                guard let currentUserID = UserController.shared.currentUser?.recordID.recordName else { return }
+                if post.isBlocked.contains(currentUserID) == false {
+                    filteredPosts.append(post)
+                }
+            }
             self.posts = filteredPosts
             completion(true)
         }

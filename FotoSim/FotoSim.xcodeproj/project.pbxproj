@@ -49,6 +49,7 @@
 		63F144622341B2B10085425F /* OctoberTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144612341B2B10085425F /* OctoberTVC.swift */; };
 		63F144642341B2BC0085425F /* NovemberTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144632341B2BC0085425F /* NovemberTVC.swift */; };
 		63F144662341B2C70085425F /* DecemberTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144652341B2C70085425F /* DecemberTVC.swift */; };
+		63F144742341BEE30085425F /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F144732341BEE30085425F /* UserController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,7 @@
 		63F144612341B2B10085425F /* OctoberTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctoberTVC.swift; sourceTree = "<group>"; };
 		63F144632341B2BC0085425F /* NovemberTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovemberTVC.swift; sourceTree = "<group>"; };
 		63F144652341B2C70085425F /* DecemberTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecemberTVC.swift; sourceTree = "<group>"; };
+		63F144732341BEE30085425F /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +256,7 @@
 		63F144332341A5F90085425F /* User */ = {
 			isa = PBXGroup;
 			children = (
+				63F144732341BEE30085425F /* UserController.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 				63F144502341B1E10085425F /* JanuaryTVC.swift in Sources */,
 				63F144542341B2200085425F /* MarchTVC.swift in Sources */,
 				63F1441B234158ED0085425F /* FebruaryPost.swift in Sources */,
+				63F144742341BEE30085425F /* UserController.swift in Sources */,
 				63F144252341592F0085425F /* JulyPost.swift in Sources */,
 				63F143BD234135A70085425F /* AppDelegate.swift in Sources */,
 				63F144582341B2430085425F /* MayTVC.swift in Sources */,
